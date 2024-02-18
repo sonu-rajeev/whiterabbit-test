@@ -1,0 +1,45 @@
+.wr-title{
+    width: 50%;
+    padding: 10px 0px;
+
+    &__head{
+        font-size: 40px;
+        line-height: 53px;
+        font-weight: 600;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    &__cnt{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #FFFFFFB2;
+        padding-bottom: 20px;
+    }
+
+}
+
+@include mobile{
+    .wr-title{
+        width: 100%;
+
+        br{
+            display: none;
+        }
+
+        &__head{
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
+
+@include tablet{
+    .wr-title{
+        margin-right: 10px;
+        br{
+            display: none;
+        }
+    }
+}

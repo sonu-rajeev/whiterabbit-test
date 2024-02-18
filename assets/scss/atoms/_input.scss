@@ -1,0 +1,38 @@
+.wr-input{
+    margin-bottom: 20px;
+    width: 100%;
+
+    &--50{
+        width: calc(50% - 20px);
+        margin: 0 10px;
+    }
+
+    &__label{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #03062F;
+        margin-bottom: 5px;
+    }
+
+    &__box{
+        border: 1px solid #0000001F;
+        border-radius: 4px;
+        background-color: white;
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #505050;
+    }
+}
+
+@include mobile{
+    .wr-input{
+        &--50{
+            width: 100%;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}

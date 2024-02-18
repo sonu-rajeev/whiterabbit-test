@@ -1,0 +1,26 @@
+.wr-hero{
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    position: relative;
+
+    &__outer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 100px 0px;
+    }
+}
+
+@include mobile{
+    .wr-hero{
+        height: auto;
+        background-color: #06073A;
+
+        &__outer{
+            flex-direction: column-reverse;
+            padding-bottom: 40px;
+        }
+    }
+
+}

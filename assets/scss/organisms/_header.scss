@@ -1,0 +1,12 @@
+.wr{
+    background-color: #06073A;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+    &__header-logo{
+        width: 100px;
+        height: auto;
+        padding: 20px 0px;
+    }
+}
